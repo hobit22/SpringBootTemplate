@@ -1,6 +1,6 @@
 package com.example.config.security;
 
-import jakarta.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -43,9 +43,9 @@ public class SecurityConfig {
         http
                 .httpBasic().disable()
                 .authorizeHttpRequests()
-                .requestMatchers(HttpMethod.POST, LOGIN_ENTRY_POINT).permitAll()
-                .requestMatchers(HttpMethod.GET, LOGOUT_ENTRY_POINT).permitAll()
-                .requestMatchers(ALL_ENTRY_POINT).authenticated()
+                .requestMatchers(new AntPathRequestMatcher(LOGIN_ENTRY_POINT, HttpMethod.POST.name())).permitAll()
+                .requestMatchers(new AntPathRequestMatcher(LOGOUT_ENTRY_POINT, HttpMethod.GET.name())).permitAll()
+                .antMatchers(ALL_ENTRY_POINT).authenticated()
                 .and()
                 .addFilterBefore(restAuthenticationProcessingFilter(),
                                  UsernamePasswordAuthenticationFilter.class)

@@ -9,7 +9,7 @@ import org.springframework.web.client.RestClientException;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.naming.NotContextException;
-import jakarta.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequest;
 
 @RestControllerAdvice
 public class GlobalRestControllerAdvicer {

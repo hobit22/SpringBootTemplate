@@ -3,8 +3,8 @@ package com.heowc.domain;
 import com.heowc.event.PasswordChangedEvent;
 import org.springframework.context.ApplicationEventPublisher;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.security.SecureRandom;
 
 @Entity

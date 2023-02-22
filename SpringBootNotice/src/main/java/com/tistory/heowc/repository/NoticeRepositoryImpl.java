@@ -2,8 +2,8 @@ package com.tistory.heowc.repository;
 
 import com.tistory.heowc.domain.Notice;
 
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import java.util.List;
 
 public class NoticeRepositoryImpl implements NoticeRepositoryCustom {

@@ -2,8 +2,8 @@ package com.example.java.simple.repository;
 
 import com.example.java.simple.domain.Customer;
 
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import java.util.List;
 
 public class SimpleCustomJpqlRepository implements CustomJpqlRepository {

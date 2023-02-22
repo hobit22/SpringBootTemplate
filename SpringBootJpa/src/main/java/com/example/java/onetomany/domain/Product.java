@@ -1,6 +1,6 @@
 package com.example.java.onetomany.domain;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "TB_PRODUCT")

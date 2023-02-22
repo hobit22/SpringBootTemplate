@@ -1,7 +1,10 @@
 package com.example.validation;
 
-import jakarta.validation.Constraint;
-import jakarta.validation.Payload;
+import javax.validation.Constraint;
+import javax.validation.Payload;
+
+import javax.validation.Constraint;
+
 import java.lang.annotation.*;
 
 @Documented
