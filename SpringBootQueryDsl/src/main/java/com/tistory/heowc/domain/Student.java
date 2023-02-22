@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity

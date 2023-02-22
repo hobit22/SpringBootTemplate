@@ -8,8 +8,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.context.annotation.Import
 import org.springframework.transaction.annotation.Transactional
-import jakarta.persistence.EntityManager
-import jakarta.persistence.PersistenceContext
+import javax.persistence.EntityManager
+import javax.persistence.PersistenceContext
 
 @SpringBootTest
 @Transactional

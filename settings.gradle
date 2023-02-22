@@ -76,8 +76,8 @@ findProject(':SpringBootMybatis')?.name = 'spring-boot-mybatis'
 include 'SpringBootNotice'
 findProject(':SpringBootNotice')?.name = 'spring-boot-notice'
 
-//include 'SpringBootOAuth2'
-//findProject(':SpringBootOAuth2')?.name = 'spring-boot-oauth2'
+include 'SpringBootOAuth2'
+findProject(':SpringBootOAuth2')?.name = 'spring-boot-oauth2'
 
 include 'SpringBootQueryDsl'
 findProject(':SpringBootQueryDsl')?.name = 'spring-boot-querydsl'

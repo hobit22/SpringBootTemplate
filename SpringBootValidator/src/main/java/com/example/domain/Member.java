@@ -2,8 +2,8 @@ package com.example.domain;
 
 import com.example.validation.Phone;
 
-import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.NotNull;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 
 public class Member {
 

@@ -2,7 +2,7 @@ package com.example.domain;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 public class User {

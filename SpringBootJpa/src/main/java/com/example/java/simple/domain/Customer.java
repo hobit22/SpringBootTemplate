@@ -1,6 +1,6 @@
 package com.example.java.simple.domain;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 @Access(AccessType.FIELD)
